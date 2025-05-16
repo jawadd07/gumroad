@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-ruby file: ".ruby-version"
+ruby file: "3.2.3"
 
 gem "rails", "7.1.3.4"
 gem "rake", "13.2.1"

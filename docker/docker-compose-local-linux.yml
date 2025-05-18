@@ -6,7 +6,7 @@ services:
     volumes:
       - ./tmp/mysql:/var/lib/mysql
     ports:
-      - "3306:3306"      # Changed to default MySQL port
+      - "3000:3000"      # Changed to default MySQL port
     environment:
       - MYSQL_ROOT_PASSWORD=password
     command:
